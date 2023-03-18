@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "name": "Quản lý trung tâm tiếng anh ACADU",
+      "image": "https://images.template.net/52315/Lean-Startup-PowerPoint-Templates-1-0.jpg",
+      "source": "https://github.com/ThaoDau/acaduProject",
+      "category": "PHP",
+      "noidungtomtat": "Dự án quản lý các khóa học và người dùng đăng ký",
+      "noidung": "Nội dung dự án sẽ bao gồm nhiều tính chất như đăng ký khóa học, kiểm tra tài khoản mình đang học hay đã học xong...",
+      "tgianbatdau": "2023-01-01",
+      "tgianketthuc": "2023-02-01",
+      "id": 1
+    },
+    {
+      "name": "Giao diện Mission",
+      "image": "https://images.template.net/52315/Lean-Startup-PowerPoint-Templates-1-0.jpg",
+      "source": "https://github.com/ThaoDau/project_mission",
+      "category": "JAVASCRIPT",
+      "noidungtomtat": "Dự án thuộc về phần FE nhưng code thuần",
+      "noidung": "Dự án thuộc về phần FE ",
+      "tgianbatdau": "2022-08-18",
+      "tgianketthuc": "2023-06-18",
+      "id": 2
+    },
+    {
+      "name": "Giao diện VakiaStudent",
+      "image": "https://i.pinimg.com/564x/35/11/29/351129103ffc2feee6426c48350d2e02.jpg",
+      "source": "https://github.com/ThaoDau/vakavia_projectstudent",
+      "category": "JAVASCRIPT",
+      "noidungtomtat": "Giao diện thuộc về FE thuần",
+      "noidung": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "tgianbatdau": "2022-12-25",
+      "tgianketthuc": "2022-11-18",
+      "id": 3
+    },
+    {
+      "name": "Giao diện Fudo",
+      "image": "https://images.template.net/52315/Lean-Startup-PowerPoint-Templates-1-0.jpg",
+      "source": "https://github.com/ThaoDau/fudo-project",
+      "category": "JAVASCRIPT",
+      "noidungtomtat": "Lorem Ipsum ",
+      "noidung": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "tgianbatdau": "2022-08-08",
+      "tgianketthuc": "2022-09-19",
+      "id": 4
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "title": "hehe"
+    }
+  ],
+  "login": [
+    {
+      "username": "thaodau",
+      "password": "123456"
+    }
+  ]
+}
