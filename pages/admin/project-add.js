@@ -33,14 +33,14 @@ const AdminProjectAddPage = () => {
                 let flag = true;
                 if (projectName.value.trim() === '') {
                     errorName.style.display = 'block';
-                    let flag = false;
+                     flag = false;
                     return;
                   } else {
                     errorName.style.display = 'none';
                   }
                   if (category.value.trim() === '') {
                     errorCategorie.style.display = 'block';
-                    let flag = false;
+                     flag = false;
 
                     return;
                   } else {
@@ -49,7 +49,7 @@ const AdminProjectAddPage = () => {
                 
                   if (noidungtomtat.value.trim() === '') {
                     errorNoidungTomtat.style.display = 'block';
-                    let flag = false;
+                     flag = false;
 
                     return;
                   } else {
@@ -58,7 +58,7 @@ const AdminProjectAddPage = () => {
                 
                   if (noidung.value.trim() === '') {
                     errorNoidung.style.display = 'block';
-                    let flag = false;
+                     flag = false;
 
                     return;
                   } else {
@@ -66,8 +66,8 @@ const AdminProjectAddPage = () => {
                   }
                 
             
-            // tạo ra 1 object mới lấy dữ liệu từ form
-            if(flag){
+            // // tạo ra 1 object mới lấy dữ liệu từ form
+            if(flag == true){
                 const newProject = {
                     // id: projectList.length + 1,
                     name: projectName.value,
@@ -80,23 +80,19 @@ const AdminProjectAddPage = () => {
                     tgianketthuc: tgianketthuc.value,
     
                 };
-                addProject(newProject).then(()=> router.navigate("/admin/projects"))
+                // addProject(newProject).then(()=> router.navigate("/admin/projects"))
+                fetch("https://641a75a4c152063412d9e808.mockapi.io/Api_products",{
+                    // GET, POST, PUT, DELETE...
+                    method:"POST",
+                    headers:{
+                        'Content-Type':'application/json'
+                    },
+                    body: JSON.stringify(newProject)
+                }).then(()=> router.navigate("/admin/projects"))
             }
+            //   console.log(1);
+            // }
             
-            // fetch("http://localhost:3000/projects",{
-            //     // GET, POST, PUT, DELETE...
-            //     method:"POST",
-            //     headers:{
-            //         'Content-Type':'application/json'
-            //     },
-            //     body: JSON.stringify(newProject)
-            // }).then(()=> router.navigate("/admin/projects"))
-
-            
-           
-
-           
-
 
             // thêm vào mảng projectList
             // projectList.push(newProject);

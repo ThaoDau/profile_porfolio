@@ -220,7 +220,7 @@ span{
 .page-item .img{
     transition:  0.3s ease;
     width: 100%;
-    height: 400px;
+    height: 220px;
     transition: 1s;
     overflow: hidden;
     border-radius: 15px;

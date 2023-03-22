@@ -10,7 +10,7 @@ const contact = () => {
                 <div class=" col">
                     <div class="contact-hover">
                         <div class="icon">
-                            <a href=""><i class='bx bxl-github'></i></a><br>
+                            <a href="https://github.com/ThaoDau"><i class='bx bxl-github'></i></a><br>
   
                         </div>
                         <div class="item"><span>https://github.com/ThaoDau</span></div>
@@ -20,17 +20,17 @@ const contact = () => {
                 </div>
                 <div class="col">
                     <div class="contact-hover">
-                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                        <div class="item"><span>https://github.com/ThaoDau</span></div>
+                        <a href="https://www.facebook.com/dau.thao.90038"><i class='bx bxl-facebook-circle'></i></a>
+                        <div class="item"><span>https://www.facebook.com/dau.thao.90038</span></div>
   
                     </div>
                     
                 </div>
                 <div class="col">      
                     <div class="contact-hover">
-                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href="https://www.instagram.com/thaodp.0603/"><i class='bx bxl-instagram-alt' ></i></a>
   
-                        <div class="item"><span>https://github.com/ThaoDau</span></div>
+                        <div class="item"><span>https://www.instagram.com/thaodp.0603/</span></div>
   
                     </div>                  
                 </div>
@@ -38,18 +38,11 @@ const contact = () => {
                     <div class="contact-hover">
                         <a href=""><i class='bx bxs-phone-call' ></i></a>
   
-                        <div class="item"><span>https://github.com/ThaoDau</span></div>
+                        <div class="item"><span>0339580923</span></div>
   
                     </div>
                 </div>
-                <div class="col">
-                    <div class="contact-hover">
-                        <a href=""><i class='bx bxs-home' ></i></a>
-  
-                        <div class="item"><span>https://github.com/ThaoDau</span></div>
-  
-                    </div>
-                </div>
+                
             </div>
             
         </div>

@@ -1,4 +1,4 @@
-import { deleteProject, getProjects } from "../../api/project";
+// import { deleteProject, getProjects } from "../../api/project";
 import { useEffect, useState } from "../../libs"
 const AdminProjectPage = () => {
     //   const[data,setData] = useState(projectList);
@@ -10,11 +10,11 @@ const AdminProjectPage = () => {
         // Lấy dữ liệu từ localStorage ra, nếu nó không có thì gán bằng []
         // const projects = JSON.parse(localStorage.getItem("projects"))||[];
         // setData(projects)
-        // fetch("http://localhost:3000/projects")
-        //   .then((response)=> response.json())
-        //   .then((data)=> setData(data))
+        fetch("https://641a75a4c152063412d9e808.mockapi.io/Api_products")
+          .then((response)=> response.json())
+          .then((data)=> setData(data))
 
-        getProjects().then(({data})=> setData(data))
+        // getProjects().then(({data})=> setData(data))
     },[])
     // chạy sau khi render
     useEffect(function () {
@@ -25,27 +25,20 @@ const AdminProjectPage = () => {
             const id = btn.dataset.id;
             btn.addEventListener("click", function () {
                 console.log(id)
+                // localStorage.setItem("projects",JSON.stringify(newData)); //set lại data ở localStorage
+                
                 const newData = data.filter((project) => {
-                    return project.id != id;
+                    return project.id !== id;
                 })
                 // Xóa ở local
                 setData(newData); //set lại data ở client
-                // localStorage.setItem("projects",JSON.stringify(newData)); //set lại data ở localStorage
-
                 // Xóa ở server
-                // fetch(`http://localhost:3000/projects/${id}`,{
-                //   method:"DELETE"
-                // })
+                fetch(`https://641a75a4c152063412d9e808.mockapi.io/Api_products/${id}`,{
+                  method:"DELETE"
+                })
 
-                deleteProject(id)
             })
         }
-        const btn_out = document.querySelectorAll(".btn-out");
-        btn_out.addEventListener('click',(e)=>{
-          e.preventDefault();
-          window.location.href = '../../main.js'
-        })
-        
     })
     
       
@@ -68,7 +61,7 @@ const AdminProjectPage = () => {
         ${data.map((project, index) => {
           const startDate = new Date(project.tgianbatdau);
           const endDate = new Date(project.tgianketthuc);
-          const duration = (endDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24 * 30); // duration in months
+          const duration = (endDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24 ); // duration in months
   
           return `
             <tr>
@@ -77,7 +70,7 @@ const AdminProjectPage = () => {
               <td>${project.category}</td>
               <td>${project.noidungtomtat}</td>
               <td>${startDate.toLocaleDateString()} - ${endDate.toLocaleDateString()}</td>
-              <td>${Math.round(duration +1)}</td>
+              <td>${Math.round(duration) + " " + "ngày"}</td>
               <td>
                 <div class="d-flex align-items-center">
                   <a href="/admin/projects/${project.id}/update" class="btn btn-sm btn-warning me-2">Sửa</a>

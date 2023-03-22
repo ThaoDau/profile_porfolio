@@ -17,11 +17,11 @@ const AdminProjectUpdatePage = ({data: {id}}) => {
     */ 
    const [data,setData] = useState([])
     useEffect(()=>{
-        // fetch(`http://localhost:3000/projects/${id}`)
-        //     .then((response)=> response.json())
-        //     .then((data) => setData(data))
+        fetch(`https://641a75a4c152063412d9e808.mockapi.io/Api_products/${id}`)
+            .then((response)=> response.json())
+            .then((data) => setData(data))
 
-        getProject(id).then(({data}) => setData(data))
+        // getProject(id).then(({data}) => setData(data))
     },[])
     useEffect(() => {
         const form = document.getElementById("form-add");
@@ -43,14 +43,14 @@ const AdminProjectUpdatePage = ({data: {id}}) => {
             let flag = true;
             if (projectName.value.trim() === '') {
                 errorName.style.display = 'block';
-                let flag = false;
+                 flag = false;
                 return;
               } else {
                 errorName.style.display = 'none';
               }
               if (category.value.trim() === '') {
                 errorCategorie.style.display = 'block';
-                let flag = false;
+                 flag = false;
 
                 return;
               } else {
@@ -59,7 +59,7 @@ const AdminProjectUpdatePage = ({data: {id}}) => {
             
               if (noidungtomtat.value.trim() === '') {
                 errorNoidungTomtat.style.display = 'block';
-                let flag = false;
+                 flag = false;
 
                 return;
               } else {
@@ -68,14 +68,14 @@ const AdminProjectUpdatePage = ({data: {id}}) => {
             
               if (noidung.value.trim() === '') {
                 errorNoidung.style.display = 'block';
-                let flag = false;
+               flag = false;
 
                 return;
               } else {
                 errorNoidung.style.display = 'none';
               }
             
-              if(flag){
+              if(flag == true){
                 const newProject = {
                     id: id,
                     name: projectName.value,
@@ -87,18 +87,18 @@ const AdminProjectUpdatePage = ({data: {id}}) => {
                     tgianbatdau: tgianbatdau.value,
                     tgianketthuc: tgianketthuc.value,
                 };
-                updateProject(newProject).then(()=> router.navigate("/admin/projects"))
+                // updateProject(newProject).then(()=> router.navigate("/admin/projects"))
 
+                fetch(`https://641a75a4c152063412d9e808.mockapi.io/Api_products/${id}`,{
+                    method:"PUT",
+                    headers:{
+                        "Content-Type":"application/json"
+                    },
+                    body: JSON.stringify(newProject)
+                }).then(()=> router.navigate("/admin/projects"))
               }
             // tạo ra 1 object mới lấy dữ liệu từ form
             
-            // fetch(`http://localhost:3000/projects/${id}`,{
-            //     method:"PUT",
-            //     headers:{
-            //         "Content-Type":"application/json"
-            //     },
-            //     body: JSON.stringify(newProject)
-            // }).then(()=> router.navigate("/admin/projects"))
 
 
 
