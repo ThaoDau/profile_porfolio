@@ -7,7 +7,7 @@ const main = () => {
             <h3>ABOUT ME</h3>
             <h2 class="mb-3">THÔNG TIN CÁ NHÂN</h2>
             <p class="w-75">Em là Đậu Phương Thảo, sinh viên kì 5. Với sự tò mò và không ngừng học hỏi, em luôn dành cho mình thời gian để tìm hiểu các công nghệ mới hoặc học ux/ui</p>
-            <button class="view-detail rounded"><a href="https://drive.google.com/file/d/1fI7aOQ34HL0MbT5SCgVLeR9PWrH7Ghua/view?usp=sharing">XEM CV</a></button>
+            <button class="view-detail rounded"><a href="https://drive.google.com/file/d/1p34gJSP3--U0iS9VeOBQuQ1o9EhoiRoH/view?usp=sharing">XEM CV</a></button>
         </div>
         <div class="box-right ">
             <div class="intro  ">
