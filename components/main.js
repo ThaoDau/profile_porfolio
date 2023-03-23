@@ -4,7 +4,7 @@ const main = () => {
     return `<div class="about-me   " id='about'>
     <div class="d-flex justify-content-center align-items-center container py-5 ">
         <div class="box-left">
-            <h3>ABOUT ME</h3>
+            <h3>GIỚI THIỆU </h3>
             <h2 class="mb-3">THÔNG TIN CÁ NHÂN</h2>
             <p class="w-75">Em là Đậu Phương Thảo, sinh viên kì 5. Với sự tò mò và không ngừng học hỏi, em luôn dành cho mình thời gian để tìm hiểu các công nghệ mới hoặc học ux/ui</p>
             <button class="view-detail rounded"><a href="https://drive.google.com/file/d/1p34gJSP3--U0iS9VeOBQuQ1o9EhoiRoH/view?usp=sharing">XEM CV</a></button>
@@ -20,7 +20,7 @@ const main = () => {
                 <p>Học trường: Cao đẳng FPT Polytechnic Hà Nội</p>
                 <p>Chuyên ngành: Thiết kế web  </p>
                 <p></p>
-                <p>Project em thường làm gần đây: 
+                <p>Dự án em thường làm gần đây: 
                 <ul>
                     <li>Vakia_project</li>
                     <li>Mision_project</li>

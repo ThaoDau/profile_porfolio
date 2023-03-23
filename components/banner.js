@@ -16,9 +16,9 @@ const banner = () => {
   
                           </div>
                           <div class="text-button ">
-                              <h4>About me</h4>
+                              <h4>Đậu Phương Thảo</h4>
                               <div class="div-item"></div>
-                              <p style="color: azure; opacity: 0.4;">Đậu Phương Thảo</p>
+                              <p style="color: azure; opacity: 0.4;">Front-End Developer</p>
                           </div>
                       </div>
                   </div>

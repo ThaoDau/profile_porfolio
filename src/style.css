@@ -64,9 +64,9 @@ a{
     color: white;
     transition: 0.5s;
 }
-.list-menu a:hover{
-    font-weight: 800;
-    translate: 5s;
+.list-menu li a:hover{
+    
+    /* translate: 5s; */
     color: #33FFA9;
 }
 /*about*/

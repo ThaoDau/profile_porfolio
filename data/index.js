@@ -22,10 +22,10 @@ const projectList = [
 ];
 
 const menuList = [
-    {name:"Home",path:"/#home"},
-    {name:"About",path:"/#about"},
-    {name:"Resume",path:"/#resume"},
-    {name:"Contact",path:"/#contact"},
+    {name:"Trang Chủ",path:"/#home"},
+    {name:"Giới thiệu",path:"/#about"},
+    {name:"Dự án",path:"/#resume"},
+    {name:"Liên hệ",path:"/#contact"},
     
 ]
 export { projectList, menuList };
