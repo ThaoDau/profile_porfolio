@@ -2,7 +2,7 @@
 
 const main = () => {
     return `<div class="about-me   " id='about'>
-    <div class="d-flex justify-content-center align-items-center container py-5 ">
+    <div class="d-flex justify-content-center align-items-center container py-5 about-me-box ">
         <div class="box-left">
             <h3>GIỚI THIỆU </h3>
             <h2 class="mb-3">THÔNG TIN CÁ NHÂN</h2>
