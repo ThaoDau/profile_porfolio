@@ -7,7 +7,8 @@ const contact = () => {
     <div class=" text-center " >
         <div class=" container  px-5">
             <div class="box-contact pb-4 row ">
-                <div class=" col">
+                <div class=" col"> 
+                
                     <div class="contact-hover">
                         <div class="icon">
                             <a href="https://github.com/ThaoDau"><i class='bx bxl-github'></i></a><br>

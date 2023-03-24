@@ -14,6 +14,7 @@ const banner = () => {
                           <div class="tag-button" style="border:none">
                               <button><a href='https://drive.google.com/file/d/1p34gJSP3--U0iS9VeOBQuQ1o9EhoiRoH/view?usp=sharing'><i class='bx bx-play-circle'></i></a></button>
   
+                              
                           </div>
                           <div class="text-button ">
                               <h4>Đậu Phương Thảo</h4>

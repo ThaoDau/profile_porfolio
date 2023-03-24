@@ -83,6 +83,7 @@ a{
     .list-menu-sub i{
         font-size: 40px;
         float: right;
+        padding-right: 20px;
 
     }
     .list-menu{
@@ -359,10 +360,12 @@ span{
         width: 10%;
     }
     .contact .container{
-        padding-left: 0;
+        padding-left: 0 !important;
+
     }
     .contact-hover .item{
-        width: 100%;
+        display: none !important;
+        
     }
 }
 .contact .box-contact i{

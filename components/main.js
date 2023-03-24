@@ -10,6 +10,7 @@ const main = () => {
             <button class="view-detail rounded"><a href="https://drive.google.com/file/d/1p34gJSP3--U0iS9VeOBQuQ1o9EhoiRoH/view?usp=sharing">XEM CV</a></button>
         </div>
         <div class="box-right ">
+        
             <div class="intro  ">
                 <h1 style="color: aquamarine;">Đậu Phương Thảo</h1>
             </div>
