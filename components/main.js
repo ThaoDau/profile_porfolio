@@ -6,7 +6,7 @@ const main = () => {
         <div class="box-left">
             <h3>GIỚI THIỆU </h3>
             <h2 class="mb-3">THÔNG TIN CÁ NHÂN</h2>
-            <p class="w-75">Em là Đậu Phương Thảo, sinh viên kì 5. Với sự tò mò và không ngừng học hỏi, em luôn dành cho mình thời gian để tìm hiểu các công nghệ mới hoặc học ux/ui</p>
+            <p class="w-75">Niềm đam mê lập trình mãnh liệt, sức trẻ nhiệt huyết và tinh thần ham học hỏi kiến thức từ công ty thì em tin rằng em sẽ đóng góp giá trị cho quý công ty.</p>
             <button class="view-detail rounded"><a href="https://drive.google.com/file/d/1p34gJSP3--U0iS9VeOBQuQ1o9EhoiRoH/view?usp=sharing">XEM CV</a></button>
         </div>
         <div class="box-right ">
@@ -21,14 +21,16 @@ const main = () => {
                 <p>Học trường: Cao đẳng FPT Polytechnic Hà Nội</p>
                 <p>Chuyên ngành: Thiết kế web  </p>
                 <p></p>
-                <p>Dự án em thường làm gần đây: 
+                <a href="#resume" class="text-main-special">Dự án thường làm gần đây</a> 
+                <p>
+                
+                </p>
+                <p>Mục tiêu: 
                 <ul>
-                    <li>Vakia_project</li>
-                    <li>Mision_project</li>
-                    <li>ACADU_project</li>
+                    <li>Ngắn hạn: Đi thực tập và hoàn thành tốt công việc được giao</li>
+                    <li>Dài hạn: Trở thành leader dự án sau 4 năm, tham gia vào đội ngũ quản lý của công ty</li>
                 </ul>
                 </p>
-                <p>Mục tiêu tương lai: Đi làm học hỏi kinh nghiệm và tiếp thu nhiều kiến thức từ các tiền bối đi trước. </p>
                 </p>
             </div>
         </div>

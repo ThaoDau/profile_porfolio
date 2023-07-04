@@ -12,7 +12,7 @@ const banner = () => {
                       <p class="mt-5">Một chút thông tin về tôi</p>
                       <div class="button d-flex justify-content-center float-start about-icon">
                           <div class="tag-button" style="border:none">
-                              <button><a href='https://drive.google.com/file/d/1p34gJSP3--U0iS9VeOBQuQ1o9EhoiRoH/view?usp=sharing'><i class='bx bx-play-circle'></i></a></button>
+                              <button><a href='https://drive.google.com/file/d/1cXAQwEmgW-3U9d9lWodzhxhlNS_YFSpv/view?usp=sharing'><i class='bx bx-play-circle'></i></a></button>
   
                               
                           </div>

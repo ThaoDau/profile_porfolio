@@ -164,7 +164,7 @@ a{
 }
 /*about*/
 .main{
-    background-image: url("/src/img/portrait-of-a-woman-with-artistic-make-up-P7ZSU5P.jpg");
+    background-image: url("/src/img/Untitled.png");
     background-position: center center;
     background-size: cover;
     height: 700px;
@@ -356,6 +356,10 @@ span{
     margin: 10px 0px;
 }
 @media (max-width: 768px) {
+    .main{
+        background-image: none;
+        background-color: #bcdab2
+    }
     .contact .col{
         width: 10%;
     }
@@ -412,6 +416,30 @@ span{
 .contact-hover:hover i{
     color: #33FFA9;
     cursor: pointer;
+}
+.text-main-special{
+    color: #4ba781;
+    position: relative;
+  display: inline-block;
+  
+  text-decoration: none;
+}
+.text-main-special::before {
+    content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #37e98a;
+  transition: width 0.3s ease-in-out;
+}
+.text-main-special:hover::before {
+  width: 70%;
+}
+.text-main-special:hover{
+  color: #18ff80;
+
 }
 
 

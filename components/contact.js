@@ -48,7 +48,7 @@ const contact = () => {
             
         </div>
         <div class="footer py-2 " style="background-color:  #0d261c5e;">
-           <p>Bản quyền thuộc về Thảo Đậu with love <3</p> 
+           <p>ĐẬU PHƯƠNG THẢO - 0339580923 </p> 
         </div>
     </div>
     
