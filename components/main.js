@@ -27,8 +27,8 @@ const main = () => {
                 </p>
                 <p>Mục tiêu: 
                 <ul>
-                    <li>Ngắn hạn: Đi thực tập và hoàn thành tốt công việc được giao</li>
-                    <li>Dài hạn: Trở thành leader dự án sau 4 năm, tham gia vào đội ngũ quản lý của công ty</li>
+                    <li>Ngắn hạn: Thực tập và hoàn thành tốt công việc được giao</li>
+                    <li>Dài hạn: Trở thành leader dự án sau 3 năm, tham gia vào đội ngũ quản lý của công ty</li>
                 </ul>
                 </p>
                 </p>
